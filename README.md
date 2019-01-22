@@ -1,6 +1,7 @@
 
 # Search-Registry
-Module created from the Search-Registry PowerShell function
+
+This PowerShell module makes searching registry keys easy.  See usage below.
 
 **Source:** [https://gallery.technet.microsoft.com/scriptcenter/Search-Registry-Find-Keys-b4ce08b4](https://gallery.technet.microsoft.com/scriptcenter/Search-Registry-Find-Keys-b4ce08b4)
 
