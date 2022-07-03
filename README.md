@@ -38,6 +38,8 @@ then press enter, then re-run the command you were attempting
 **Search key names, value names, and value data:**
 
     Search-Registry -Path HKLM:\SOFTWARE -Recurse -SearchRegex "cisco|anyconnect"
+    
+Tip: to see the entire string append `| fl` to the command
 
 **Search only key names and value names**
 
