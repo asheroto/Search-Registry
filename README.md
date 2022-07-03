@@ -9,7 +9,7 @@ This PowerShell module makes searching registry keys easy.  See usage below.
 # Install with a one-line command
 Run **PowerShell** as **Administrator**, paste this (one line): 
 
-    if(-not (Test-Path "C:\Windows\System32\WindowsPowerShell\v1.0\Modules\Search-Registry")) { New-Item -Type Directory -Name "Search-Registry" -Path "C:\Windows\System32\WindowsPowerShell\v1.0\Modules"; (New-Object System.Net.WebClient).DownloadFile("https://raw.githubusercontent.com/ASHERH4X/Search-Registry/master/Search-Registry.psm1", "C:\Windows\System32\WindowsPowerShell\v1.0\Modules\Search-Registry\Search-Registry.psm1") }
+    if(-not (Test-Path "C:\Windows\System32\WindowsPowerShell\v1.0\Modules\Search-Registry")) { New-Item -Type Directory -Name "Search-Registry" -Path "C:\Windows\System32\WindowsPowerShell\v1.0\Modules"; (New-Object System.Net.WebClient).DownloadFile("https://raw.githubusercontent.com/asheroto/Search-Registry/master/Search-Registry.psm1", "C:\Windows\System32\WindowsPowerShell\v1.0\Modules\Search-Registry\Search-Registry.psm1") }
 then press enter
 
 **This command does the following:**
